@@ -11,7 +11,7 @@ import os
 class Config(object):
     APP_ID = int(os.environ.get("APP_ID", "8206404"))
     API_HASH = os.environ.get("API_HASH", "e935d9b56e3fd2c05c743093efb761c9")
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5951942864:AAHj5HilQ7Ryu_ZOQYeUhZDtFEDfVYHSjQA")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5397255207:AAE3ZtIfThBZLXkVIfOB_uhPB63KdS0CbmU")
     AUTH_USERS = [int(x) for x in os.environ.get("AUTH_USERS", "858588280").split()]
     DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./bot/DOWNLOADS")
     DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Aman:<Aman>@cluster0.jf3q4pn.mongodb.net/?retryWrites=true&w=majority")
